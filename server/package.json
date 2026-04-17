@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Node",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManishKu79/Green-Cart-Ecommerce.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ManishKu79/Green-Cart-Ecommerce/issues"
+  },
+  "homepage": "https://github.com/ManishKu79/Green-Cart-Ecommerce#readme"
+}

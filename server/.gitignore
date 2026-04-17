@@ -1,0 +1,22 @@
+
+git remote add origin https://github.com/ManishKu79/Green-Cart-Ecommerce.git
+git branch -M main
+git push -u origin main
+
+
+echo "# Green-Cart-Ecommerce" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ManishKu79/Green-Cart-Ecommerce.git
+git push -u origin main
+
+/node_modules
+/dist
+/dist-ssr
+*.local
+.env
+.env.test
+.env.*.local
+.npm/ 
