@@ -18,7 +18,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 4500;
 const DB_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/GreenCart";
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'];
 
 // Middleware
 app.use(express.json());
